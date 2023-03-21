@@ -1,3 +1,5 @@
+![plot](./src/img/Screenshot%202023-03-21%20at%205.48.44%20PM.png);
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

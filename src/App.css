@@ -8,11 +8,15 @@
   
   .app {
     display: block;
-    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 420px;
     height: 250px;
     background-color: #e8e8e8;
-    margin: 50px auto 0 auto;
-    padding: 40px;
+    margin: 0 auto;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0,0,0, .2);
   }

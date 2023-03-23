@@ -44,9 +44,9 @@ class App extends Component {
 
   render() {
     return (
-      <div class="app">
-        <div class="counter">{this.state.currentValue}</div>
-        <div class="controls">
+      <div className="app">
+        <div className="counter">{this.state.currentValue}</div>
+        <div className="controls">
           <button onClick={this.incCounter}>INC</button>
           <button onClick={this.decCouner}>DEC</button>
           <button onClick={this.rndCounter}>RND</button>

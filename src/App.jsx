@@ -36,7 +36,7 @@ class App extends Component {
   }
 
   rndCounter = () => {
-      this.setState({currentValue: +(Math.random() * (50 - -50) + -50).toFixed(0)})
+    this.setState({ currentValue: +(Math.random() * (50 - -50) + -50).toFixed(0) })
   }
   /*  function getRandomArbitrary(min, max) { 
         return Math.random() * (max - min) + min; //getting random between two values
